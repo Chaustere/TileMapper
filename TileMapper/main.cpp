@@ -13,7 +13,7 @@ int main()
 	//sf::RenderWindow window(modes[0], "Conway's Game of Life simulation", sf::Style::Fullscreen);
 
 	// Initializes the window with a width of 512 pixels and a height of 256 pixels
-	sf::RenderWindow window(sf::VideoMode(512, 256), "Window title", sf::Style::Default);
+	sf::RenderWindow window(sf::VideoMode(512, 256), "TileMapper", sf::Style::Default);
 
 	// Sets the framerate limit of the window
 	window.setFramerateLimit(60);
